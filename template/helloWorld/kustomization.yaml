@@ -13,4 +13,4 @@ resources:
 labels:
 - includeSelectors: true
   pairs:
-    app: hello
+    app: hello-{{ .Version }}
