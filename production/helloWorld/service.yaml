@@ -4,7 +4,7 @@ metadata:
   name: the-service
 spec:
   selector:
-    deployment: hello-{{ .Version }}
+    deployment: hello
   type: LoadBalancer
   ports:
   - protocol: TCP
